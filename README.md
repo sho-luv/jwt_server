@@ -8,6 +8,7 @@ This is a simple Flask server that demonstrates how to generate, handle, and che
 - Handle JWTs without verifying their signature
 - Check incoming requests for JWTs and optionally verify their signature
 - Command-line flag to enable or disable JWT signature checks
+- Command-line flag to change signature verification
 
 ## Prerequisites
 
