@@ -1,5 +1,3 @@
-
-```markdown
 # JWT Server
 
 This is a simple Flask server that demonstrates how to generate, handle, and check JSON Web Tokens (JWTs) in a web application. The server provides endpoints for generating JWTs, handling JWTs without signature verification, and checking JWTs with optional signature verification.
@@ -94,4 +92,4 @@ curl -X POST -H "Authorization: Bearer YOUR_JWT_TOKEN" -H "Content-Type: applica
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
+
