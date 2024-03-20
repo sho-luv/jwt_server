@@ -16,10 +16,9 @@ SECRET_KEY = args.secret_key
 @app.route("/generate-jwt", methods=["POST"])
 def generate_jwt():
     data = request.get_json()
-    payload = {
-        "username": data["username"],
-        "email": data["email"],
-    }
+    payload = {}
+    for key, value in data.items():
+        payload[key] = value
     # Generate a JWT and encode it using the HS256 algorithm.
     jwt_token = jwt.encode(payload, SECRET_KEY, algorithm="HS256")
     return jsonify({"jwt_token": jwt_token})
