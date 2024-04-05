@@ -21,7 +21,7 @@ This is a simple Flask server that demonstrates how to generate, handle, and che
 1. Clone the repository:
 
    ```bash
-   git clone git@github.com:sho-luv/jwt_server.git
+   git clone https://github.com/sho-luv/jwt_server.git
    ```
 
 2. Navigate to the project directory:
